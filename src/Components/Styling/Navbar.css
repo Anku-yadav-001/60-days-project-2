@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#container{
+    width: 100%;
+    height: 12vh;
+    background-color: rgb(11, 99, 252);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#container>div{
+    margin: 10px;
+}
+.logo{
+    width: 10%;
+    text-align: center;
+}
+.addressing{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border-radius: 50px;
+    padding: 6px;
+    background-color: rgb(39, 39, 232);
+    color: white;
+    font-size: 15px;
+}
+.addressing>div{
+   display: flex;
+   align-items: center;
+}
+.searching{
+    width: 100%;
+}
+.searching>input{
+    width: 98%;
+    height: 7vh;
+    border-radius: 30px;
+    border: none;
+    padding-left: 25px;
+    font-size: 15px;
+}
+.my-items{
+    text-align: center;
+      width: 12%;
+      color: white;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+}
+.account{
+    text-align: center;
+      width: 12%;
+      color: white;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+}
+.cart{
+       width: 10%;
+       font-size: 12px;   
+       text-align: center;
+}
