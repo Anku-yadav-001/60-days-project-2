@@ -1,8 +1,9 @@
-import "./Styling/Navbar.css"
+import "../Styling/Navbar.css"
 import Logo from "../assets/favicon.png"
 function Navbar(){
 
     return <>
+    <div style={{position:"fixed",zIndex:"1"}}>
     <div id="container">
           
                 <div className="logo">
@@ -45,6 +46,22 @@ function Navbar(){
                     <p>$0.00</p>
                 </div>
            
+    </div>
+    <div id="nav-items">
+        <div>Departments</div>
+        <div>Services</div>
+        <div>|</div>
+        <div>Deals</div>
+        <div>Grocery & Essentials</div>
+        <div>Father's Day</div>
+        <div>Graduation</div>
+        <div>Summer Style</div>
+        <div>National Pet Month</div>
+        <div>Home</div>
+        <div>Fashion</div>
+        <div>Patio & Garden</div>
+        <div>Registry</div>
+    </div>
     </div>
     </>
 }

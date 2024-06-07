@@ -65,3 +65,11 @@
        font-size: 12px;   
        text-align: center;
 }
+#nav-items{
+    display: flex;
+    justify-content: space-evenly; 
+    padding: 15px;
+    background-color: rgb(243, 252, 255);
+}
+
+
