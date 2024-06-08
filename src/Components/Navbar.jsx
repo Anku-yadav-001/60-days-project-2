@@ -1,5 +1,6 @@
 import "../Styling/Navbar.css"
 import Logo from "../assets/favicon.png"
+import { Link } from "react-router-dom"
 function Navbar(){
 
     return <>
@@ -37,8 +38,10 @@ function Navbar(){
                         <img src="https://cdn-icons-png.flaticon.com/128/10479/10479887.png" alt="" style={{width:"80%"}}/>
                     </div>
                     <div>
-                        <p>Sign in</p>
-                        <h4>Account</h4>
+                    <Link to="/signin" style={{textDecoration:"none",color:"white"}}>
+                       <p>Reorder</p>
+                       <h4>Items</h4>
+                    </Link>
                     </div>
                 </div>
                 <div className="cart">

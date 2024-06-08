@@ -1,0 +1,26 @@
+.footer-container{
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(18, 3, 120);
+}
+.footer-container>div{
+    width: 80%;
+   text-align: center;
+}
+.footer-container>div>ul{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 13px;
+    list-style-type: none;
+    color: white;
+}
+.footer-container>div>ul>li{
+    padding: 5px;
+}
+.footer-container>div>p{
+    padding: 3%;
+    font-size: 13px;
+    color: white;
+}

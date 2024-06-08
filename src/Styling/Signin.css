@@ -1,0 +1,62 @@
+.singin-container{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.singin-container div{
+    width: 25%;
+    margin-top: 4%;
+}
+.singin-container div p{
+    padding: 20px 20px 20px 0;
+    color: black;
+    font-weight: 700;
+}
+.singin-container div h4{
+    font-weight: 100;
+    padding: 10px;
+    font-size: 14px;
+    color:  rgb(86, 85, 85);
+}
+.singin-form{
+    text-align: left;
+    margin-top: 4%;
+    margin-bottom: 20%;
+}
+.singin-form label{
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.singin-form input{
+    width: 90%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid;
+    margin: 5px;
+}
+.singin-form button{
+    width: 94%;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 1px solid;
+    background-color: rgb(0, 98, 255);
+    font-weight: 700;
+    color: white;
+}
+.security-script{
+    font-size: 12px;
+    font-weight: 100;
+    color:gray !important;
+}
+.email-change-option{
+    text-align: left;
+    color: black;
+    font-weight: 100;
+    padding: 10px !important;
+}
+.email-change-option a{
+    color: black;
+}

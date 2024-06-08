@@ -139,10 +139,204 @@
   margin: 5px;
   padding: 10px 0;
   color: rgb(86, 86, 86);
+  overflow:scroll;
+  height: 10vh;
+}
+.product-title::-webkit-scrollbar{
+  width: 0;
 }
 .options{
   position: absolute;
   bottom: 0;
   margin-bottom: 10px;
   width: 80%;
+}
+.upgraded-items{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2%;
+}
+.upgraded-heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.upgraded-desc{
+  color: gray;
+  padding: 10px 0;
+}
+.viewAll-link{
+  color: black;
+  font-size: 15px;
+}
+.upgraded-right{
+  width: 50%;
+  position:relative;
+}
+.poster-image-heading{
+   position: absolute;
+   top: 0;
+   font-size: 8vh;
+   margin: 4% 0  0 2%;
+}
+.poster-image-heading>button{
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.upgraded-product-container{
+  width: 45%;
+}
+.product1{
+  min-width: 33%;
+}
+.product1 div img{
+  width: 100%;
+}
+.product1 div .price{
+  color: black;
+}
+.product1 div .options{
+  border-radius: 15px;
+  text-align: center;
+}
+.gd11 { grid-area: div1; }
+.gd12 { grid-area: div2; }
+.gd13 { grid-area: div3; }
+.gd14 { grid-area: div4; }
+.gd15 { grid-area: div5; }
+.grid-container-1{
+  width: 97%;
+  overflow: hidden;
+  display: grid;
+  grid-template-areas:
+  'div1 div1  div2 div2 div3'
+  'div1 div1  div4 div5 div3'
+  'div1 div1  div4 div5 div3'
+  'div1 div1  div4 div5 div3';
+  gap: 20px;
+  padding: 20px;
+  margin-top: 2%;
+}
+
+.grid-container-1 > div {
+  width: 100%;
+  font-size: 30px;
+  position:relative;
+  cursor: pointer;
+}
+.grid-container-1>div>img{
+  border-radius: 15px;
+}
+.product-thumbnail-information{
+  position: absolute;
+  top: 0;
+  margin: 20px;
+}
+.product-thumbnail-information p{
+  font-size: 1.5rem;
+  color:  rgb(62, 61, 61);
+}
+.product-thumbnail-information h3{
+  font-size: 3rem;
+  margin: 5px 0 5px 0;
+  font-weight: 100;
+  color: rgb(2, 2, 68);
+}
+.product-thumbnail-information button{
+  padding: 8px 15px;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid black;
+  font-weight: 500;
+  }
+.product-thumbnail-information h4{
+      margin: 5px 0 5px 0;
+      color: rgb(2, 2, 68);
+}
+.product-thumbnail-information a{
+   color: black;
+   font-size: 15px;
+}
+.product-thumbnail-information button:hover{
+  border: 3px solid black;
+}
+.product-thumbnail-information a:hover{
+    text-decoration: none;
+}
+.video-thumbnails .product{
+  min-width: 22.5% !important;
+  height: 100vh !important;
+}
+.video-thumbnails .product video{
+  object-fit: cover;
+}
+.below-container-video-clip{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.videos-description{
+  margin: 5px;
+}
+.videos-description h3{
+    color: rgb(47, 46, 46);
+    font-size: 15px;
+}
+.videos-description p{
+  color: gray;
+  font-size: 12px;
+}
+.prodcut-brands{
+  width: 98% !important;
+  padding: 10px;
+
+}
+.prodcut-brands div{
+  min-width: 10% !important;
+  height: 25vh !important;
+  text-align: center;
+}
+.prodcut-brands div p{
+  font-size: 14px;
+  color: rgb(49, 48, 48);
+}
+.walmart-profit{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 10vh;
+ margin: 2%;
+ border-radius: 10px;
+ color:  rgb(4, 4, 143);
+}
+.walmart-profit button{
+  padding: 10px 15px;
+  margin: 10px;
+  border-radius: 15px;
+  background-color: white;
+}
+.walmart-profit img{
+  margin: 10px;
+}
+.give-feedback{
+ padding: 5vh;
+  text-align: center;
+  background-color: rgb(231, 231, 251);
+}
+.give-feedback p{
+  font-size: 15px;
+  padding: 10px;
+}
+.give-feedback button{
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: white;
+  font-weight: 700;
+  border: 1px solid black;
+}
+.give-feedback button:hover{
+  border: 2px solid black;
 }
