@@ -1,42 +1,49 @@
-.singin-container{
+.singin-container {
     text-align: center;
     width: 100%;
     display: flex;
     justify-content: center;
 }
-.singin-container div{
+
+.singin-container div {
     width: 25%;
     margin-top: 4%;
 }
-.singin-container div p{
+
+.singin-container div p {
     padding: 20px 20px 20px 0;
     color: black;
     font-weight: 700;
 }
-.singin-container div h4{
+
+.singin-container div h4 {
     font-weight: 100;
     padding: 10px;
     font-size: 14px;
-    color:  rgb(86, 85, 85);
+    color: rgb(86, 85, 85);
 }
-.singin-form{
+
+.singin-form {
     text-align: left;
     margin-top: 4%;
     margin-bottom: 20%;
 }
-.singin-form label{
+
+.singin-form label {
     padding: 5px;
     font-size: 14px;
     font-weight: 600;
 }
-.singin-form input{
+
+.singin-form input {
     width: 90%;
     padding: 10px;
     border-radius: 4px;
     border: 1px solid;
     margin: 5px;
 }
-.singin-form button{
+
+.singin-form button {
     width: 94%;
     padding: 10px 20px;
     margin: 10px;
@@ -46,17 +53,77 @@
     font-weight: 700;
     color: white;
 }
-.security-script{
+
+.security-script {
     font-size: 12px;
     font-weight: 100;
-    color:gray !important;
+    color: gray !important;
 }
-.email-change-option{
+
+.email-change-option {
     text-align: left;
     color: black;
     font-weight: 100;
     padding: 10px !important;
 }
-.email-change-option a{
+
+.email-change-option a {
     color: black;
+}
+
+@media (max-width: 768px) {
+    .singin-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .singin-container div {
+        width: 80%;
+        margin-top: 10%;
+    }
+
+    .singin-form {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .singin-form input {
+        width: 100%;
+    }
+
+    .singin-form button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .singin-container div p {
+        padding: 10px 10px 10px 0;
+    }
+
+    .singin-container div h4 {
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .singin-form label {
+        font-size: 12px;
+    }
+
+    .singin-form input {
+        padding: 8px;
+    }
+
+    .singin-form button {
+        padding: 8px 16px;
+        margin: 8px;
+    }
+
+    .security-script {
+        font-size: 10px;
+    }
+
+    .email-change-option {
+        padding: 5px !important;
+    }
 }

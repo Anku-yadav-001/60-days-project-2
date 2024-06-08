@@ -39,8 +39,8 @@ function Navbar(){
                     </div>
                     <div>
                     <Link to="/signin" style={{textDecoration:"none",color:"white"}}>
-                       <p>Reorder</p>
-                       <h4>Items</h4>
+                       <p>Signin</p>
+                       <h4>Account</h4>
                     </Link>
                     </div>
                 </div>
