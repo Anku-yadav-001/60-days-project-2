@@ -5,6 +5,7 @@ This project is a clone of the Walmart website, built using HTML, CSS, React, an
 ## Table of Contents
 
 - [Demo](#demo)
+- [Screenshots](#screenshots)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
@@ -15,6 +16,21 @@ This project is a clone of the Walmart website, built using HTML, CSS, React, an
 
 [(Live)](https://walmart-clone.netlify.app/)
 
+## Screenshots
+
+Here are some screenshots of the project:
+
+### Home Page
+![Screenshot 2024-06-11 090934](https://github.com/Anku-yadav-001/60-days-project-2/assets/136979860/04fcf8d6-4e96-4bee-99d2-fd25de66bb0a)
+
+### Product Listing
+![Screenshot 2024-06-11 090950](https://github.com/Anku-yadav-001/60-days-project-2/assets/136979860/36a3373c-e23b-45a8-8d34-567979518a4f)
+
+### Register
+![Screenshot 2024-06-11 091051](https://github.com/Anku-yadav-001/60-days-project-2/assets/136979860/efc77c52-d6bf-4c82-937c-7d12037d44a7)
+
+### Login
+![Screenshot 2024-06-11 092927](https://github.com/Anku-yadav-001/60-days-project-2/assets/136979860/888eae34-5ccf-4d08-a76d-e1f98e661df2)
 
 ## Features
 
